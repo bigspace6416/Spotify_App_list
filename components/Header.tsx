@@ -18,7 +18,7 @@ export default function Header() {
 
   const logout = () => {
     setCurrentTrack(null);
-    signOut({ callbackUrl: "http://localhost:3000/login" });
+    signOut({ callbackUrl: "https://next-spotify-one.vercel.app/login" });
   };
 
   if (router.pathname === "/login") {
